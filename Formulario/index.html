@@ -20,7 +20,61 @@
 	</header>
 
 	<section>
+		<h1 id="h1">Creando Formularios</h1>
+		<br>
+
+		 <form>
+			<fieldset id="color-fondo" >
+				<legend id="datos-usuario">Datos Usuario</legend><br>
+				
+					<label for="nombre" id="nombre">Nombre</label>
+	 	 			<input type="text" name="nombre" placeholder="Escribe tu nombre..." required="" /><br><br>
+
+	 	 			<label for="apellido" id="apellido">Apellido</label>
+	 	 			<input type="text" name="apellido" placeholder="Escribe tu apellido..." required>
+	 	 			<br><br>
+
+	 	 			<label>Sexo</label><br>
+			 	 	<input type="radio" name="Masculino" />Masculino <br>
+			 	 	<input type="radio" name="Masculino" />Femenino <br>
+			 	 	<input type="radio" name="Masculino" />Indefinido <br><br>
+
+			 	 	<label>Ingresa fecha</label>
+		 	 		<input type="date" name="">	<br>
+		 	 	
+	 			
+			</fieldset>
 		
+
+			<fieldset id="color-extra" style="width: 500px; height: 200px;">
+				
+					<legend>Extra</legend>
+					<label>Las primeras 10 personas reciben una camisa gratis, </label>
+					<label>Elige un color</label>
+		 	 		<input type="color" name="">
+
+		 	 	
+			</fieldset><br>
+
+			<fieldset id="color-informacioncurso" style="width: 250px; height: 200px;">
+					<legend>Informacion del curso</legend>
+					<label>Turno </label>
+		 		<select name="genero">
+	 	 			<option value="Diurno">Diurno</option>
+	 	 			<option value="Nocturno">Nocturno</option>	 	 	
+	 	 		</select><br>
+
+	 	 		<label>Elige tus cursos </label><br>
+		 	 	<input type="radio" name="CSS" />CSS3 <br>
+		 	 	<input type="radio" name="CSS" />HTML5 <br>
+		 	 	<input type="radio" name="CSS" />JAVASCRIPT <br>
+		 	 	
+ 	 
+			</fieldset><br>
+
+			<input type="submit" value="Enviar" id="boton-enviar" />
+	 	 	<input type="reset" value="Reset" id="boton-reset" />
+	  </form>
 	</section>
 
 	<footer>
