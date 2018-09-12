@@ -1,0 +1,27 @@
+#h1{
+	color: blue;
+}
+#datos-usuario{
+	color: green;
+}
+#nombre{
+	color: red;
+}
+#apellido{
+	color: red;
+}
+#color-fondo{
+	background-color: orange;
+}
+#color-extra{
+	background-color: brown;
+}
+#color-informacioncurso{
+	background-color: pink;
+}
+#boton-enviar{
+	background-color: lime; 
+}
+#boton-reset{
+	background-color: gold; 
+}
